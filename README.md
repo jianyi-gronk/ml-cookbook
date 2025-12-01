@@ -69,7 +69,7 @@
     - Boosting
     - Stacking
     - Blending
-    - Hill Climbing：贪心法，一个一个加集成模型，只保留能提升的
+    - Hill Climbing
 - **伪标签与自集成**
   - 用当前最强 ensemble 预测 test，取置信度 >0.95（ 或 0.99 ）的样本加入训练集继续训练
   - 具体使用：迭代 2~3 轮 + 逐步降低阈值
